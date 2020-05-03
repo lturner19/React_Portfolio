@@ -1,0 +1,24 @@
+/*-----------------Navbar styling--------------- */
+
+/* Styling links to other pages */
+
+
+.nav-link {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    color: #485868 !important;
+}
+
+/* Nav-link color change*/
+a,
+a:active,
+a:hover,
+a:link,
+a:focus {
+color:#9aaaba !important;
+}
+
+/* dropdown menu over-riding bootstraps styling*/
+.dropdown-item{
+    text-align: center;
+}
