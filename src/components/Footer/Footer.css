@@ -1,0 +1,40 @@
+footer{
+    border-top:2px solid #203a55;
+    width: 100%;
+    background-color:#98999b;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+  
+  /* Github icon */
+  .fab {
+      font-size: 35px;
+      color: black;
+      padding: 10px;
+  }
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
+  
+  /* Linkedin icon */
+  #link {
+      font-size: 40px;
+      color: #007bb5;
+  }
+  
+  
+  .contact-info{
+      padding: 0 10px;
+      margin: 0 10px;
+  }
+  
+  h4, h5 {
+      color: #fdc1b1
+  }
+  
+  .contact-info{
+      display: inline-block;
+  }
+  
