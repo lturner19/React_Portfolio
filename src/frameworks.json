@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "HTML 5",
+        "alt": "HTML 5",
+        "src": "/images/html5.png"
+    },
+    {
+        "id": 2,
+        "title": "CSS 3",
+        "alt": "CSS 3",
+        "src": "/images/iconfinder_badge-css-3_317756.png"
+    },
+    {
+        "id": 3,
+        "title": "JS",
+        "alt": "JS",
+        "src": "/images/js.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Vue.js",
+        "alt": "Vue",
+        "src": "/images/vue-icon.jpg"
+    },
+    {
+        "id": 5,
+        "title": "React.js",
+        "alt": "React",
+        "src": "/images/react.png"
+    },
+    {
+        "id": 6,
+        "title": "Node.js",
+        "alt": "Node",
+        "src": "/images/Node-JS-01.png"
+    }
+]
