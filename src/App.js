@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import NavBar from './components/NavBar';
+import Header from './components/Header';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>  
-      <NavBar />
+      <Header />
       <Switch>
       {/* this ensures that either / or home can be used to bring up homepage w/o breaking*/}
       <Route exact path={["/", "/home"]}><Home /></Route>
