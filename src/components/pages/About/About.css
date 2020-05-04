@@ -1,0 +1,27 @@
+/* title */
+.container{
+    height: 100%;
+}
+
+h2 {
+    color:#203a55;
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+ 
+}
+
+/* profile picture */
+#profile-img {
+    margin-left: 10%;
+    width: 190px;
+    height: 250px;
+}
+
+/* paragraph styling */
+p {
+    padding: 10px;
+    margin: 10px 30px 10px 0px;
+    text-align: justify;
+    font-size: 18px;
+}
