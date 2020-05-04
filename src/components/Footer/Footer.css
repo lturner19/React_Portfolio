@@ -1,40 +1,27 @@
-footer{
+.sticky-footer{
     border-top:2px solid #203a55;
     width: 100%;
     background-color:#98999b;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
   }
   
-  /* Github icon */
-  .fab {
-      font-size: 35px;
-      color: black;
-      padding: 10px;
+
+.social-links, .contact {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;    
+    width: 25%;
+  }
+
+  .social-links i, .contact i {
+    color: white;
+    font-size: 3em;
+    padding: 8px;
   }
   
-  .fab:hover {
-      opacity: 0.7;
+  .contact {
+      width:  68%;
+      color: white;
   }
-  
-  /* Linkedin icon */
-  #link {
-      font-size: 40px;
-      color: #007bb5;
-  }
-  
-  
-  .contact-info{
-      padding: 0 10px;
-      margin: 0 10px;
-  }
-  
-  h4, h5 {
-      color: #fdc1b1
-  }
-  
-  .contact-info{
-      display: inline-block;
-  }
-  
