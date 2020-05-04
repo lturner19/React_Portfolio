@@ -1,55 +1,36 @@
 import React from 'react';
 import './Footer.css';
+import { Grid, Cell } from 'react-mdl';
 
 function Footer() {
     return (
-        <div>
-            <footer className="sticky-footer">
-                <div className="container">
-                    <div className="row text-center">
-                        <div className="col-sm-6 col-md-2">
-                            <div className="social">
-                                <a href="https://github.com/lturner19"><i className="fab fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/leandraturner"><i className="fab fa-linkedin"
-                                    id="link"></i></a>
-                            </div>
-                        </div>
-                        {/* end of column 1  */}
 
-                        <div className="col-sm-0 col-md-6">
-                            <nav className="footer-nav">
-                                <ul className="nav justify-content-end">
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#index">Home</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#about">About</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#portfolio">Portfolio</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="assets\LT_2020_Resume.pdf">Resume</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#contact">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        {/* end of column 2 */}
 
-                        <div className="col-sm-6 col-md-4">
-                            <p className="contact-info"><i className="far fa-envelope"></i> lturner19@protonmail.com</p>
-                            <p className="contact-info"><i className="fas fa-mobile-alt"></i> 512.673.6253</p>
-                        </div>
-                        {/* end of column 3 */}
+        <div className="sticky-footer">
+            <Grid className="footer">
+                <Cell col={6}>
+                    <div className="social-links">
+                        {/* Linkedin */}
+                        <a href="https://www.linkedin.com/in/leandraturner" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+                        {/* Github */}
+                        <a href="https://github.com/lturner19" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-github-square" aria-hidden="true"></i></a>
                     </div>
+                    {/* end of column 1  */}
+                </Cell>
+                <Cell col={6}>
+                    <div className="contact">
+                        <p><i className="fa fa-mobile" aria-hidden="true"></i>lturner19@protonmail.com</p>
+                        <p><i className="fa fa-envelope-o" aria-hidden="true"></i>512.673.6253</p>
+                    </div>
+                </Cell>
+            </Grid >
+        </div >
 
-                </div>
 
-            </footer>
-        </div>
+
     )
 }
 
