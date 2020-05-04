@@ -3,22 +3,12 @@
 /* Styling links to other pages */
 
 
-.nav-link {
+
+.nav, .header {
+    background-color: #d7d4d4dc !important;
     font-family: 'Righteous', cursive;
-    font-size: 18px;
+    font-size: 20px;
     color: #485868 !important;
+    margin-bottom: 10%;
 }
 
-/* Nav-link color change*/
-a,
-a:active,
-a:hover,
-a:link,
-a:focus {
-color:#9aaaba !important;
-}
-
-/* dropdown menu over-riding bootstraps styling*/
-.dropdown-item{
-    text-align: center;
-}
