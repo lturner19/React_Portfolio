@@ -37,6 +37,7 @@ There are five (5) sections to visit, which are:
 
 ## PREVIEW
 
+![portfolio preview](././images/Portfolio-preview.png)
 
 
 <br>
@@ -44,11 +45,11 @@ There are five (5) sections to visit, which are:
 ### RESOURCES
 The following programs and websites were used to code the pages within this portfolio:
 
-- [Bootstrap 4](https://www.getbootstrap.com) 
+- [React-mdl](https://www.getbootstrap.com) 
 
-- Homepage Background: Ben Kolde on www.Unsplash.com
+- Paul Hanna: [Create React App Tutorial](https://www.youtube.com/watch?v=9AboneIxeM8)
 
-- Background: www.Unsplash.com
+- Homepage Background: www.Unsplash.com
 
 - Question Clipart: www.freepik.com
 
@@ -56,7 +57,7 @@ The following programs and websites were used to code the pages within this port
 <br>
 
 ### BADGES
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://lturner19.github.io/professional_portfolio/)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://github.com/lturner19/React_Portfolio)
 
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
