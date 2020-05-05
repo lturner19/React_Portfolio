@@ -1,49 +1,52 @@
 import React from 'react';
 import "./Contact.css";
+import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 function Contact() {
     return (
-        <div className="container" id="contact">
-          <div className="row">
-            <div className="col-sm-6" id="message-img">
-                <img className="question-img" src="/images/2368872.jpg" alt="bubble with question mark" />
-            </div>
-            <div className="col-sm-6" id="message">
-                <p className="question">Have a question?</p>
-                <p className="question">Please send a message</p>
-                  
-              <form className="mt-4 mt-md-0">
-                    <div className="form-group">
-                        <label form="formGroupExampleInput" className="sr-only">Name</label>
-                        <input type="text" className="form-control bg-faded-4" id="name" placeholder="Name"/>
+        <div className="body">
+            <Grid className="contact-grid">
+                <Cell col={6}>
+                    <h2 className="heading">Questions ?</h2>
+                    <img className="question-img" src="/images/2368872.jpg" alt="bubble with question mark" />
+                </Cell>
+                <Cell col={6}>
+                    <h2 className="heading">Contact Me</h2>
+                    <hr />
+                    <div className="contact-list">
+                        <List>
+                            <ListItem>
+                                <ListItemContent className="list-item">
+                                    <i className="fa fa-phone-square" aria-hidden="true" />
+                                    512-673-6253
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent className="list-item">
+                                    <i className="fa fa-envelope" aria-hidden="true" />
+                                    lturner19@protonmail.com
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent className="social">
+                                    <a href="https://www.linkedin.com/in/leandraturner" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                </ListItemContent>
+                                <ListItemContent><a href="https://github.com/lturner19" target="_blank" rel="noopener noreferrer">
+                                    <i className="fa fa-github-square" aria-hidden="true"></i></a>
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent className="list-item">
+                                </ListItemContent>
+                            </ListItem>
+                        </List>
                     </div>
-                    <div className="form-group">
-                        <label form="formGroupExampleInput" className="sr-only">Email</label>
-                        <input className="form-control bg-faded-4" type="email" value="" id="email" placeholder="Email"/>
-                    </div>
-                    <div className="form-group">
-                        <label form="formGroupExampleInput" className="sr-only">Phone Number</label>
-                        <input className="form-control bg-faded-4" type="email" value="" id="email"
-                            placeholder="Phone Number"/>
-                    </div>
-                    <div className="form-group">
-                        <label form="formGroupExampleInput" className="sr-only">Message</label>
-                        <textarea className="form-control bg-faded-4" id="message" rows="3"
-                            placeholder="Message"></textarea>
-                    </div>
-                    <div className="custom-control custom-checkbox">
-                        <input type="checkbox" className="custom-control-input" id="spam"/>
-                        <label className="custom-control-label" form="spam">Are you a human?</label>
-                    </div>
-                    <button type="submit" className="btn btn-secondary btn-sm mt-2">Submit</button>
-                </form> 
-                </div>
-            
+                </Cell>
+            </Grid>
         </div>
-       </div>
-   
-       
     )
 }
 
 export default Contact;
+

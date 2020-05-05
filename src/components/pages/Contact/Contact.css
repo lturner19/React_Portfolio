@@ -1,28 +1,51 @@
 /* ------------contact page----------- */
 
-#contact {
-    max-width: 980px;
-    padding: 20px;
+.contact-grid {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    width: 80%;
+    height: 380px;
     margin-bottom: 20px;
 }
 
-/* contact paragraphs and nav footer links */
-.contact-info, .col-sm-0 {
-    margin: 0px !important;
-    padding: 5px !important;
-}
 
 /* clipart */
 .question-img {
-    width: 70%;
-    margin-top: 50px;
+    width: 70%; 
 }
 
-/* Question and checkbox text */
-.question, .custom-control{
-    color:#203a55;
-    font-size: 24px;
+/* h2 */
+.heading {
+    border-bottom: none !important;
+    color: #56667d;
+    font-family: 'Anton','Teko', sans-serif;
+}
+
+/* horizontal line beneath contact me */
+.contact-grid hr {
+    border-top: 3px dotted #203a55;
+    width: 50%;
+    margin: auto;
+
+}
+
+/* font awesome icons */
+.contact-list i {
+    font-size: 66px;
+    padding-right: 15px;
+    color: #f8a988;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+}
+
+/* contact-info */
+.list-item {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: #56667d;
+   
+}
+
+/* social links */
+.social{
+    justify-content: space-evenly;
 }
