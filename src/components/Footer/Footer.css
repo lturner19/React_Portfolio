@@ -1,27 +1,13 @@
 .sticky-footer{
+  background-color:#98999b;
     border-top:2px solid #203a55;
+    color: whitesmoke;
+    text-align: center;
     width: 100%;
-    background-color:#98999b;
-    position: relative;
+    height: 5%;
+    padding: 5px;
     left: 0;
     bottom: 0;
+    position: fixed;
   }
   
-
-.social-links, .contact {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;    
-    width: 25%;
-  }
-
-  .social-links i, .contact i {
-    color: white;
-    font-size: 3em;
-    padding: 8px;
-  }
-  
-  .contact {
-      width:  68%;
-      color: white;
-  }
