@@ -18,13 +18,13 @@ function Contact() {
                             <ListItem>
                                 <ListItemContent className="list-item">
                                     <i className="fa fa-phone-square" aria-hidden="true" />
-                                    512-673-6253
+                                    <span>512-673-6253</span>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
                                 <ListItemContent className="list-item">
                                     <i className="fa fa-envelope" aria-hidden="true" />
-                                    lturner19@protonmail.com
+                                    <span>lturner19@protonmail.com</span>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
@@ -32,12 +32,8 @@ function Contact() {
                                     <a href="https://www.linkedin.com/in/leandraturner" target="_blank" rel="noopener noreferrer">
                                         <i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
                                 </ListItemContent>
-                                <ListItemContent><a href="https://github.com/lturner19" target="_blank" rel="noopener noreferrer">
+                                <ListItemContent className="social"><a href="https://github.com/lturner19" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github-square" aria-hidden="true"></i></a>
-                                </ListItemContent>
-                            </ListItem>
-                            <ListItem>
-                                <ListItemContent className="list-item">
                                 </ListItemContent>
                             </ListItem>
                         </List>

@@ -45,7 +45,24 @@
    
 }
 
-/* social links */
-.social{
-    justify-content: space-evenly;
+
+
+@media only screen and (max-width: 768px){
+    .contact-list i {
+        font-size: 48px;
+    }
+    .social i{
+        font-size: 55px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 475px){
+    .contact-list i{
+        font-size: 30px;
+    }
+
+    .contact-list span{
+        font-size: 20px;
+    }
 }

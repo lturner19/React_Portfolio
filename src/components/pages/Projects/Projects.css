@@ -8,7 +8,6 @@
 .card{
     margin: auto;
     margin-bottom: 10%;
-    flex: 1;
 }
 
 .card-img{
@@ -37,4 +36,9 @@
    font-weight: bold;
    padding: 8px 15px;
    margin: auto;
+}
+
+/* over-riding z-index to prevent cards from floating in front of footer */
+.mdl-card {
+    z-index: 0 !important;
 }
