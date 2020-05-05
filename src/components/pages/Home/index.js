@@ -9,9 +9,8 @@ function Home() {
             <Grid className="home-grid">
                 <Cell col={12}>
                     <div className="banner-text">
-                        <h3>Hi my name is</h3>
                         <h1>Leandra Turner</h1>
-                        <h3> I am a Full Stack Developer</h3>
+                        <h3>Full Stack Web Developer</h3>
                         <hr />
                         <p>HTML/CSS | Bootstrap | JavaScript | Vue.js | React.js | Node.js | MongoDB | mySQL</p>
                     </div>
