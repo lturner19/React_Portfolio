@@ -1,9 +1,15 @@
 /*-----------------Navbar styling--------------- */
 
-.nav, .header {
+/* title and nav-links; overriding mdl styling */
+.nav, .nav-header {
     background-color: #d7d4d4dc !important;
+    font-size: 20px !important;
+    padding: 10px !important;
     font-family: 'Righteous', cursive;
-    font-size: 30px;
     color: #485868 !important;
     margin-bottom: 10%;
+}
+
+.mdl-layout-title {
+    font-family: 'Righteous', cursive !important;
 }
