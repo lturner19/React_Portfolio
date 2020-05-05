@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "COVID-19 PATIENT DB",
+        "alt": "covid app",
+        "src": "/images/preview.jpg",
+        "github":"https://github.com/lturner19/COVID-19_Patient_db",
+        "webpage":"https://secure-sands-03885.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "title": "CASA COCKTAILS",
+        "alt": "project 2",
+        "src": "/images/opening_page.jpg",
+        "github": "https://github.com/lturner19/Casa-Cocktail",
+        "webpage":"https://rimaodolski.github.io/Casa-Cocktail/"
+    },
+    {
+        "id": 3,
+        "title": "HISTOLOGY QUIZ",
+        "alt": "code quiz",
+        "src": "/images/Start_quiz.jpg",
+        "github": "https://github.com/lturner19/Histology_Quiz",
+        "webpage":"https://lturner19.github.io/Histology_Quiz/"
+    },
+    {
+        "id": 4,
+        "title": "PASSWORD GENERATOR",
+        "alt": "password generator",
+        "src": "/images/pw_generator.jpg",
+        "github": "https://github.com/lturner19/Random-Password-Generator",
+        "webpage": "https://lturner19.github.io/Random-Password-Generator/"
+        
+    },
+    {
+        "id": 5,
+        "title": "Team Roster",
+        "alt": "team roster",
+        "src": "/images/generated_team.jpg",
+        "github": "https://github.com/lturner19/Team-Roster",
+        "webpage": "https://lturner19.github.io/Team-Roster/"
+       
+    },
+    {
+        "id": 6,
+        "title": "Weather Dashboard",
+        "alt": "weather dashboard",
+        "src": "/images/weather_dashboard.jpg",
+        "github": "https://github.com/lturner19/weather_dashboard",
+        "webpage": "https://lturner19.github.io/weather_dashboard/"
+    }
+]
