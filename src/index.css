@@ -6,4 +6,11 @@ body {
   font-size: 20px;
 }
 
-
+/* styling container divs */
+.body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-top: 4em;
+  position: relative;  
+}
