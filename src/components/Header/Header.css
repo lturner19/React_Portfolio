@@ -1,14 +1,9 @@
 /*-----------------Navbar styling--------------- */
 
-/* Styling links to other pages */
-
-
-
 .nav, .header {
     background-color: #d7d4d4dc !important;
     font-family: 'Righteous', cursive;
-    font-size: 20px;
+    font-size: 30px;
     color: #485868 !important;
     margin-bottom: 10%;
 }
-
