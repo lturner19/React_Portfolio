@@ -1,7 +1,9 @@
 /*-----------------Navbar styling--------------- */
 
 /* title and nav-links; overriding mdl styling */
-.nav, .nav-header {
+.nav, 
+.nav-header, 
+.nav-drawer {
     background-color: #d7d4d4dc !important;
     font-size: 20px !important;
     padding: 10px !important;
@@ -10,6 +12,20 @@
     margin-bottom: 10%;
 }
 
+/* side nav header */
 .mdl-layout-title {
     font-family: 'Righteous', cursive !important;
 }
+
+/* side nav window */
+.nav-drawer {
+    background-color: whitesmoke !important;
+}
+
+/* side nav button */
+.material-icons {
+color: #fe766a !important;
+font-size: 45px !important;
+margin-top: 10px;
+}
+    

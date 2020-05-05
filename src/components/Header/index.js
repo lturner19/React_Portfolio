@@ -17,7 +17,7 @@ function NavBar() {
                         <Link className="nav" to="/LT_2020_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</Link>
                     </Navigation>
                 </Header>
-                <Drawer className="nav-header" title="Portfolio">
+                <Drawer className="nav-drawer" title="Portfolio">
                     <Navigation>
                         <Link className="nav" to="/">Home</Link>
                         <Link className="nav" to="/about">About</Link>
