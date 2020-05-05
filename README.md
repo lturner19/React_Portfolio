@@ -45,7 +45,7 @@ There are five (5) sections to visit, which are:
 ### RESOURCES
 The following programs and websites were used to code the pages within this portfolio:
 
-- [React-mdl](https://www.getbootstrap.com) 
+- [React-mdl](https://tleunen.github.io/react-mdl/) 
 
 - Paul Hanna: [Create React App Tutorial](https://www.youtube.com/watch?v=9AboneIxeM8)
 

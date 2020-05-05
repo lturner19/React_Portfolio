@@ -25,18 +25,18 @@
     },
     {
         "id": 4,
-        "title": "PASSWORD GENERATOR",
-        "alt": "password generator",
-        "src": "/images/pw_generator.jpg",
-        "github": "https://github.com/lturner19/Random-Password-Generator",
-        "webpage": "https://lturner19.github.io/Random-Password-Generator/"
+        "title": "Employee Directory",
+        "alt": "directory",
+        "src": "/images/Employee_directory.gif",
+        "github": "https://github.com/lturner19/CalOCakes_Employee_Directory",
+        "webpage": "https://shrouded-harbor-34309.herokuapp.com/"
         
     },
     {
         "id": 5,
         "title": "Team Roster",
         "alt": "team roster",
-        "src": "/images/generated_team.jpg",
+        "src": "/images/Node_CLI_Generated_Team_Roster.gif",
         "github": "https://github.com/lturner19/Team-Roster",
         "webpage": "https://lturner19.github.io/Team-Roster/"
        
