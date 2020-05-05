@@ -10,26 +10,25 @@ function Projects() {
         <div className="body">
             <h2>PORTFOLIO</h2>
             <Grid className="projects-grid">
-                <Cell col={4}>
-                    <div>
-                        {projects.map((project) => {
-                            return (
-                                <Card className="card" shadow={5} key={project.id}>
-                                    <CardTitle className="card-title">
-                                        <img className="card-img" src={project.src} alt={project.alt} />
-                                    </CardTitle>
-                                    <CardText className="title">{project.title}</CardText>
+                {projects.map((project) => {
+                    return (
+                        <Cell col={4} key={project.id}>
+                            <Card className="card" shadow={5}>
+                                <CardTitle className="card-title">
+                                    <img className="card-img" src={project.src} alt={project.alt} />
+                                </CardTitle>
+                                <CardText className="title">{project.title}</CardText>
 
-                                    <CardActions border className="links">
-                                        <a href={project.github} target="_blank" rel="noopener noreferrer">REPOSITORY</a>
-                                        <a href={project.webpage} target="_blank" rel="noopener noreferrer">WEBPAGE</a>
-                                    </CardActions>
-                                </Card>
-                            )
-                        }
-                        )}
-                    </div>
-                </Cell>
+                                <CardActions border className="links">
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer">REPOSITORY</a>
+                                    <a href={project.webpage} target="_blank" rel="noopener noreferrer">WEBPAGE</a>
+                                </CardActions>
+                            </Card>
+                        </Cell>
+
+                    )
+                }
+                )}
             </Grid>
         </div>
     )

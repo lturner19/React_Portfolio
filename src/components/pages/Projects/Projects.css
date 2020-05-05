@@ -2,9 +2,8 @@
 
 .projects-grid {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+  
+} 
 
 .card{
     margin: auto;
@@ -31,8 +30,9 @@
     text-align: center;
     padding-top: 20px !important;
    
-}
-.links a{
+} 
+
+ .links a{
    color: #6d829a;
    font-weight: bold;
    padding: 8px 15px;
