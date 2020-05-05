@@ -10,7 +10,6 @@ function About() {
                 <Cell col={3}>
                     <img className="profile-img" src="/images/Leandra-Profile.png" alt="profile" />
                 </Cell>
-
                 <Cell col={9}>
                     <div className="about-info">
                         <p>I am currently enrolled in a web development bootcamp provided by Triology Educations
@@ -23,14 +22,12 @@ function About() {
                         While there I was able to earn my certification as a Histology Technician and perform various aspects of histology to include: routine histology, muscle
                         enzyme histochemistry, electron microscopy, immunohistochemistry.
                         </p>
-
                         <p>I prefer to spend my free time involved with my dog Callie. I also
                         enjoys trying my hand at various hobbies that include: baking, knitting,
                         gardening, and flower arranging.
                         </p>
                     </div>
                 </Cell>
-
             </Grid>
         </div>
     )
