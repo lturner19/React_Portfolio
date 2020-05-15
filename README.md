@@ -57,10 +57,10 @@ The following programs and websites were used to code the pages within this port
 <br>
 
 ### BADGES
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://github.com/lturner19/React_Portfolio)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://pacific-retreat-86091.herokuapp.com/)
 
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/lturner19/React_Portfolio)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 
